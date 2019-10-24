@@ -1,0 +1,57 @@
+body{
+    margin-left: 20px; 
+    margin-right: 20px; 
+    font-family: 'Inconsolata', monospace; 
+    background-color:#fceade;
+    color:#ea526f;
+}
+
+header{
+    border:1px solid black; 
+    margin:20px 0px 0px; 
+    padding:10px; 
+    height: 400px; 
+    display: box; 
+    width:inherit; 
+    position: relative;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Karla', sans-serif;
+}
+
+h2{
+    position: absolute; bottom: 0; 
+}
+
+img{
+    border:1px solid black; 
+    height: 300px; 
+    width:50%
+}
+
+#bio{
+    display: inline;
+    margin-right:50%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color:#17255a;
+    border:1px solid black; 
+    margin:0px 0px 40px; 
+    padding:10px; 
+    display: box; 
+    width:inherit; 
+    position: relative; 
+    
+}
+
+a{
+    color:#fa526c;
+    margin-right: 20px;
+}
+
