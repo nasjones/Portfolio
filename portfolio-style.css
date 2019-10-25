@@ -4,17 +4,60 @@ body{
     font-family: 'Inconsolata', monospace; 
     background-color:#fceade;
     color:#ea526f;
+    line-height: 22px;
 }
 
-header{
+.work-photo{
     border:1px solid black; 
+    height: 300px; 
+    box-shadow:7px 2px 15px black;
+    margin-left: 40px;
+}
+nav{
+    background-color:#17255a;
+    border:1px solid black; 
+    margin:0px 0px 40px; 
+    padding:5px; 
+    display: box; 
+    width:inherit; 
+    position: relative; 
+    font-size: 15px;
+}
+
+.nav-link{
+    padding:10px; 
+}
+.nav-link:hover{
+    cursor: pointer;
+    background-color: #fffff3;
+}
+@media screen and (min-width:800px){
+    
+
+header{
+    display: inline;
     margin:20px 0px 0px; 
+    position: relative;
+}
+
+#banner-pic{
+    float:right;
+    width:49%;
+    height: 450px;
+    /* position: absolute; */
+}
+
+#header-text{
+    background-color:#fceade;
+    /* border:1px solid black;  */
     padding:10px; 
     height: 400px; 
     display: box; 
-    width:inherit; 
+    width:50%;
     position: relative;
 }
+
+
 
 h1,h2,h3,h4{
     font-family: 'Karla', sans-serif;
@@ -24,34 +67,57 @@ h2{
     position: absolute; bottom: 0; 
 }
 
-img{
-    border:1px solid black; 
-    height: 300px; 
-    width:50%
+h3{
+    text-decoration: underline;
 }
 
-#bio{
-    display: inline;
-    margin-right:50%;
+/* .work-photo{
+    border:1px solid black; 
+    height: 300px; 
+    box-shadow:7px 2px 15px black;
+    margin-left: 40px;
+} */
+
+p{
+    margin-right: 55%;
+    margin-left: 40px;
+    font-size: 20px;
 }
 
 ul{
     list-style-type: none;
 }
 
-nav{
+/* nav{
     background-color:#17255a;
     border:1px solid black; 
     margin:0px 0px 40px; 
-    padding:10px; 
+    padding:5px; 
     display: box; 
     width:inherit; 
     position: relative; 
-    
+    font-size: 15px;
+} */
+
+/* .nav-link{
+    padding:10px; 
+} */
+
+.contact-footer{
+    padding-bottom: 40px;
+    margin-left:40px;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+    background-color: #fffff3;
 }
 
 a{
     color:#fa526c;
     margin-right: 20px;
 }
+}
+@media screen and (max-width:800px){
 
+}
