@@ -23,13 +23,16 @@ nav{
     position: relative; 
     font-size: 15px;
 }
-
 .nav-link{
     padding:10px; 
 }
 .nav-link:hover{
     cursor: pointer;
     background-color: #fffff3;
+}
+
+ul{
+    list-style-type: none;
 }
 @media screen and (min-width:800px){
     
@@ -71,37 +74,11 @@ h3{
     text-decoration: underline;
 }
 
-/* .work-photo{
-    border:1px solid black; 
-    height: 300px; 
-    box-shadow:7px 2px 15px black;
-    margin-left: 40px;
-} */
-
 p{
     margin-right: 55%;
     margin-left: 40px;
     font-size: 20px;
 }
-
-ul{
-    list-style-type: none;
-}
-
-/* nav{
-    background-color:#17255a;
-    border:1px solid black; 
-    margin:0px 0px 40px; 
-    padding:5px; 
-    display: box; 
-    width:inherit; 
-    position: relative; 
-    font-size: 15px;
-} */
-
-/* .nav-link{
-    padding:10px; 
-} */
 
 .contact-footer{
     padding-bottom: 40px;
@@ -119,5 +96,7 @@ a{
 }
 }
 @media screen and (max-width:800px){
-
+body{
+    text-align:center;
+}
 }
