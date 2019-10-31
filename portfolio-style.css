@@ -7,12 +7,24 @@ body{
     line-height: 22px;
     text-align:left;
 }
+
+.nav-text{
+    padding:0;
+    margin:0;
+    margin-block-start:0;
+}
+
+.nav-text ul{
+    display: inline-block;
+    padding-left: 1rem;
+}
 .nav-text li{
-    display:inline-block;
+    display:inline;
 }
 #banner-pic{
     width:100%;
     height: 450px;
+    background: url('photo-banner.jpg');
 }
 
 .work-photo{
@@ -29,9 +41,7 @@ nav{
     position: relative; 
     font-size: 15px;
 }
-/* .nav li{
-    display: inline-block;
-} */
+
 .nav-link{
     padding:10px; 
     
@@ -50,16 +60,19 @@ body{
     text-align:left;
 }
 #banner-pic{
+    height:422px;
     float:right;
     width:75%;
-    height: 450px;
+    overflow:hidden;
+    background-size:contain;
+    background: url('photo-banner.jpg');
+    max-width:422px;
 }
 #header-text{
     background-color:#fceade;
     border:1px solid black; 
     padding:10px;
-    height: 400px; 
-    display: box; 
+    height: auto; 
     width:25%;
     position: relative;
 }
@@ -83,9 +96,12 @@ header{
 }
 
 #banner-pic{
-    float:right;
-    width:55%;
-    height: 450px;
+  float:right;
+    width:75%;
+    overflow:hidden;
+    background-size:contain;
+    background: url('photo-banner.jpg');
+    max-width:422px;
 }
 
 #header-text{
@@ -93,13 +109,17 @@ header{
     border:1px solid black; 
     padding:10px; 
     height: 400px; 
-    display: box; 
     width:45%;
     position: relative;
 }
 
 h1,h2,h3,h4{
     font-family: 'Karla', sans-serif;
+}
+
+h1{
+    font-size:5rem;
+    line-height: -55px;
 }
 
 h2{
