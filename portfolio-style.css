@@ -32,7 +32,7 @@ body {
 .work-photo {
     border: 1px solid black;
     height: 300px;
-    box-shadow: 7px 2px 15px black;
+    box-shadow: 7px 2px 15px gray;
 }
 
 nav {
