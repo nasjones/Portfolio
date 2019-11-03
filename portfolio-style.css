@@ -5,7 +5,7 @@ body {
     background-color: #fceade;
     color: #7F1024;
     line-height: 22px;
-    text-align: left;
+    text-align: center;
 }
 
 .nav-text {
@@ -36,7 +36,7 @@ body {
 }
 
 nav {
-    background-color: #17255a;
+    background-color: #9ca8d3;
     border: 1px solid black;
     margin: 0px 0px 40px;
     padding: 5px;
@@ -67,7 +67,7 @@ ul {
         grid-template-areas: "text photo";
     }
     #first-name {
-        color: rgb(230, 115, 115);
+        color: rgb(153, 81, 81);
     }
     #banner-pic {
         height: 422px;
@@ -153,7 +153,7 @@ ul {
         margin-left: 40px;
     }
     a {
-        color: #fa526c;
+        color: #7F1024;
         /* margin-right: 20px; */
     }
 }
