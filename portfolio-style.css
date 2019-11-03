@@ -3,7 +3,7 @@ body {
     margin-right: 20px;
     font-family: 'Inconsolata', monospace;
     background-color: #fceade;
-    color: #ea526f;
+    color: #7F1024;
     line-height: 22px;
     text-align: left;
 }
@@ -113,6 +113,7 @@ ul {
         display: grid;
         grid-template-columns: 50% 1fr;
         grid-template-areas: "text photo";
+        text-align: center;
     }
     #banner-pic {
         max-width: 100%;
